@@ -16,11 +16,6 @@ class Timemachine < Formula
 
   def install
     bin.install "timemachine"
-    
-    # Install shell completions
-    bash_completion.install "completions/timemachine.bash" => "timemachine"
-    zsh_completion.install "completions/_timemachine" => "_timemachine"
-    fish_completion.install "completions/timemachine.fish"
   end
 
   test do
