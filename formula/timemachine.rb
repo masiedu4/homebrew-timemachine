@@ -7,7 +7,7 @@ class Timemachine < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/masiedu4/timemachine/releases/download/v0.1.1/timemachine-macos-arm64.tar.gz"
-      sha256 "8272a937ee95ef3fcea6aca38813f42de783e27089fd3b291e0f3bfd85135bc4"
+      sha256 "e34543d314e42863d5e9589a84a3703379f08daf3a31fb6fdc873d0121dd08ca"
     else
       url "https://github.com/masiedu4/timemachine/releases/download/v0.1.1/timemachine-macos-amd64.tar.gz"
       sha256 "cdf8293654ad1adf654a6e88b63501416a410fe6f9e0e912857063c05a46df99"
