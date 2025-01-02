@@ -1,7 +1,7 @@
 class Timemachine < Formula
   desc "A powerful file versioning tool for tracking and managing file changes"
   homepage "https://github.com/masiedu4/timemachine"
-  version "0.1.0"
+  version "0.1.1"
   license "Apache-2.0"
 
   on_macos do
